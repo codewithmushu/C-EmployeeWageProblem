@@ -28,7 +28,7 @@ namespace C_EmployeeWageProblem
 
             Random random = new Random();
 
-            //EmployeePresenty.CalcEmployeePresenty( is_full_time, random);
+            EmployeePresenty.CalcEmployeePresenty( is_full_time, random);
             // UC2_Dailywage.CalcDailyWage(random,empHrs, empwage, emp_rate_per_hour, is_full_time);
             // PartTimeWage_UC3.CalcPartTimeWage(random, is_full_time, empHrs,is_part_time,empwage,emp_rate_per_hour);
             // CaseStatement.CalEmployeeWageUsingCaseStatement(random, is_full_time, empHrs,empwage,emp_rate_per_hour);
